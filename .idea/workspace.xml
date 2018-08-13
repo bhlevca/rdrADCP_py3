@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4947e58e-7f68-4b67-a882-24bbd38309d7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/cache_2.50000_2.50000_0.08333_1.93603_158_Morlet.gz" afterPath="$PROJECT_DIR$/rdradcp/cache_2.50000_2.50000_0.08333_1.93603_158_Morlet.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pcadcp/__init__.py" afterPath="$PROJECT_DIR$/pcadcp/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pcadcp/rdTxtPcAdp.py" afterPath="$PROJECT_DIR$/pcadcp/rdTxtPcAdp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/OLD_rdradcp.py" afterPath="$PROJECT_DIR$/rdradcp/OLD_rdradcp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/Plot-batchart.py" afterPath="$PROJECT_DIR$/rdradcp/Plot-batchart.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/Timer.py" afterPath="$PROJECT_DIR$/rdradcp/Timer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/__init__.py" afterPath="$PROJECT_DIR$/rdradcp/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/countcalls.py" afterPath="$PROJECT_DIR$/rdradcp/countcalls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/fft.py" afterPath="$PROJECT_DIR$/rdradcp/fft.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/nmedian.py" afterPath="$PROJECT_DIR$/rdradcp/nmedian.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/northVel.csv" afterPath="$PROJECT_DIR$/rdradcp/northVel.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/plot_ADCP_vel_FFT.py" afterPath="$PROJECT_DIR$/rdradcp/plot_ADCP_vel_FFT.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/plot_ADCP_velocity.py" afterPath="$PROJECT_DIR$/rdradcp/plot_ADCP_velocity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/plot_ADCP_velocity2.py" afterPath="$PROJECT_DIR$/rdradcp/plot_ADCP_velocity2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/readRawBinADCP.py" afterPath="$PROJECT_DIR$/rdradcp/readRawBinADCP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/scanf.py" afterPath="$PROJECT_DIR$/rdradcp/scanf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/sunspots.bin" afterPath="$PROJECT_DIR$/rdradcp/sunspots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/test_pcolor.py" afterPath="$PROJECT_DIR$/rdradcp/test_pcolor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/wavelet_analysis.py" afterPath="$PROJECT_DIR$/rdradcp/wavelet_analysis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/writeAdcpTxtData.py" afterPath="$PROJECT_DIR$/rdradcp/writeAdcpTxtData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rdradcp/writebins.py" afterPath="$PROJECT_DIR$/rdradcp/writebins.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="readRawBinADCP.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="1525" column="34" lean-forward="true" selection-start-line="1525" selection-start-column="34" selection-end-line="1525" selection-end-column="34" />
+              <folding>
+                <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+                <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+                <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+                <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="317" />
+    <option name="y" value="109" />
+    <option name="width" value="1543" />
+    <option name="height" value="946" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rdrADCP_py3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rdrADCP_py3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rdrADCP_py3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rdrADCP_py3" type="462c0819:PsiDirectoryNode" />
+              <item name="rdradcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MOECC_Tools" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth0" value="372" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth1" value="248" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth2" value="224" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth3" value="646" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth0" value="121" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth1" value="147" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth2" value="215" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth3" value="1006" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rdrADCP_py3" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rdrADCP_py3" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rdrADCP_py3" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rdrADCP_py3" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rdrADCP_py3" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rdrADCP_py3" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rdrADCP_py3" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4947e58e-7f68-4b67-a882-24bbd38309d7" name="Default" comment="" />
+      <created>1480713677099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1480713677099</updated>
+    </task>
+    <task id="LOCAL-00001" summary="changed formattin text on axes">
+      <created>1480713747540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480713747540</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added serialization code for RDI ADCP binary data. The code also reads text data back">
+      <created>1484358390104</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484358390104</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Multiple fixes to comply with Python index rules that do not allow passing one element array as ain index (future error)">
+      <created>1485187571316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1485187571316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="317" y="109" width="1543" height="946" extended-state="4" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23713355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33015496" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24941725" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32706767" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed formattin text on axes" />
+    <MESSAGE value="Added serialization code for RDI ADCP binary data. The code also reads text data back" />
+    <MESSAGE value="Multiple fixes to comply with Python index rules that do not allow passing one element array as ain index (future error)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multiple fixes to comply with Python index rules that do not allow passing one element array as ain index (future error)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="406" column="9" lean-forward="false" selection-start-line="406" selection-start-column="9" selection-end-line="406" selection-end-column="9" />
+          <folding>
+            <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6090">
+          <caret line="406" column="9" lean-forward="false" selection-start-line="406" selection-start-column="9" selection-end-line="406" selection-end-column="9" />
+          <folding>
+            <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rdradcp/readRawBinADCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="1525" column="34" lean-forward="true" selection-start-line="1525" selection-start-column="34" selection-end-line="1525" selection-end-column="34" />
+          <folding>
+            <marker date="1485118416000" expanded="true" signature="50612:61316" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="50612:64819" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56701:60878" ph="..." />
+            <marker date="1485118416000" expanded="true" signature="56791:56950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+</project>
