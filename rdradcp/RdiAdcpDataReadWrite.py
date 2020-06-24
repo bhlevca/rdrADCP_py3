@@ -526,7 +526,7 @@ class RdiDataWriter(object):
 
 
     #------------------------------------------------------------------------
-    def writeAdcp(self, fname, adcp, delimiter=','):
+    def writeAdcp(self, fname, adcp=None, delimiter=','):
         '''
 
         :param fname:
@@ -535,7 +535,12 @@ class RdiDataWriter(object):
         :param delimiter:
         :return:
         '''
-        self.writeCfg(fname+".ctl", adcp.config, delimiter=delimiter)
+        if adcp is None:
+            adcp = self.adcp
+        #self.writeCfg(fname+".ctl", adcp.config, delimiter=delimiter)
+        for index, item in enumerate(adcp):
+            if type(item).__name__ == 'ADCPCfg':
+                self.writeCfg(fname+".ctl", item, delimiter=delimiter)
         self.writeBins(fname+".ve", adcp.mtime, adcp.east_vel, delimiter)
         self.writeBins(fname + ".vn", adcp.mtime, adcp.north_vel, delimiter)
         self.writeBins(fname + ".vu",  adcp.mtime, adcp.vert_vel,  delimiter)
