@@ -290,7 +290,7 @@ class RdiDataWriter(object):
 
 
     # ------------------------------------------------------------------------
-    def writeData(self, fname, delimiter=','):
+    def writeData(self, fname, adcp, delimiter=','):
         '''
 
         :param fname:
@@ -301,10 +301,10 @@ class RdiDataWriter(object):
         ofile = open(self.path + '/' + fname, "wt")
         writer = csv.writer(ofile, delimiter=delimiter, quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-        if self.adcp.goodbins != 0:
-            writer.writerow(["goodbins", int(self.adcp.goodbins)])
+        if adcp.goodbins != 0:
+            writer.writerow(["goodbins", int(adcp.goodbins)])
 
-        writer.writerow(["num_rec", int(self.adcp.num_rec)])
+        writer.writerow(["num_rec", int(adcp.num_rec)])
 
         ofile.close()
 
@@ -541,8 +541,9 @@ class RdiDataWriter(object):
         for index, item in enumerate(adcp):
             if type(item).__name__ == 'ADCPCfg':
                 self.writeCfg(fname+".ctl", item, delimiter=delimiter)
-        self.writeBins(fname+".ve", adcp.mtime, adcp.east_vel, delimiter)
-        self.writeBins(fname + ".vn", adcp.mtime, adcp.north_vel, delimiter)
-        self.writeBins(fname + ".vu",  adcp.mtime, adcp.vert_vel,  delimiter)
-        self.writeBins(fname + ".err", adcp.mtime, adcp.error_vel, delimiter)
-        self.writeData(fname + ".dat", delimiter)
+            if type(item).__name__ == 'ADCPData':
+                self.writeBins(fname+".ve", item.mtime, item.east_vel, delimiter)
+                self.writeBins(fname + ".vn", item.mtime, item.north_vel, delimiter)
+                self.writeBins(fname + ".vu",  item.mtime, item.vert_vel,  delimiter)
+                self.writeBins(fname + ".err", item.mtime, item.error_vel, delimiter)
+                self.writeData(fname + ".dat", item, delimiter)

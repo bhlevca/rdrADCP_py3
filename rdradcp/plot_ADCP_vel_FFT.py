@@ -99,8 +99,8 @@ def plot_rotary_wavelet_spectrum(adcp, bin = bin, counterclockwise = True, scale
     else:
         title = "Clockwise velocity spectrum"
 
-    #[wave, scales, freq, coi, fft, fftfreqs, iwave, power, fft_power, amplitude, phase] =
-    kwavelet.doSpectralAnalysis(title, "morlet", slevel, avg1, avg2, dj, s0, J, alpha, counterclockwise)
+    [wave, scales, freq, coi, fft, fftfreqs, iwave, power, fft_power, amplitude, phase] = \
+        kwavelet.doSpectralAnalysis(title, "morlet", slevel, avg1, avg2, dj, s0, J, alpha, counterclockwise)
 
     ylabel_ts = "amplitude"
     yunits_ts = 'm/s'
@@ -113,7 +113,7 @@ def plot_rotary_wavelet_spectrum(adcp, bin = bin, counterclockwise = True, scale
     x_type = 'dayofyear'
 
     # we want to have the vector, power is in absolute value
-    kwavelet.plotSpectrogram(kwavelet.wpar1, ylabel_ts, yunits_ts, xlabel_sc, ylabel_sc, sc_type, x_type, val1, val2, powerimg = False)
+    kwavelet.plotSpectrogram(ylabel_ts, yunits_ts, xlabel_sc, ylabel_sc, sc_type, x_type, val1, val2, powerimg = False)
     # ylabel_sc = 'Frequency ($s^{-1}$)'
     # kwavelet.plotAmplitudeSpectrogram(ylabel_ts, yunits_ts, xlabel_sc, ylabel_sc, sc_type, x_type, val1, val2)
 
@@ -266,7 +266,7 @@ def plot_FFT_twinx_W_T(time, W, Ttime, T, scale = 'log', drawslope = False) :
 # end
 
 
-def plot_FFT_Three_V_T_WL(time, V, Ttime, T, WL, WTime, scale = 'log', drawslope = False) :
+def plot_FFT_Three_V_T_WL(time, V, Ttime, T, WL, WTime, scale = 'log', drawslope = False, plotTemp=True) :
     '''UNTITLED Summary of this function goes here
       Detailed explanation goes here
     '''
@@ -293,8 +293,8 @@ def plot_FFT_Three_V_T_WL(time, V, Ttime, T, WL, WTime, scale = 'log', drawslope
 
 
     data = [time, V]
-    data1 = [time, iT]
-    data2 = [time, iWL]
+    data1 = [time, iWL]
+    data2 = [time, iT]
 
     fftsa = fftGraphs.FFTGraphs(None, None, None, show, data, data1, data2)
     showLevels = False
@@ -318,13 +318,21 @@ def plot_FFT_Three_V_T_WL(time, V, Ttime, T, WL, WTime, scale = 'log', drawslope
     #===========================================================================
     
     # this is for single side amplitude FFT
-    fftsa.plotPSD3SpectrumsFreq("Velocity", "Temperature", "Water Level", funits = funits, \
+    if plotTemp:
+        fftsa.plotPSD3SpectrumsFreq("Velocity", "Temperature", "Water Level", funits = funits, \
                                          log = scale, fontsize = 20, plottitle = False, grid = grid, \
-                                         ymax = None, graph = True, tunits = tunits, ymax_lim2 = None, \
-                                         ylabel1 = "Velocity [$m s^{-1}$]", \
-                                         ylabel2 = 'Temperature [$^{\circ}C$]', \
-                                         ylabel3 = "Water level [$m$]", 
+                                         ymax = None, graph = True, tunits=tunits, ymax_lim2 = None, \
+                                         ylabel1 = "Velocity [ms$^{-1}$]", \
+                                         ylabel2 = "Water level [m]", \
+                                         ylabel3 = 'Temperature [$^{\circ}$C]', \
                                          ymax_lim3 = None, drawslope = drawslope)
+    else:
+        fftsa.plotPSD2SpectrumsFreq("Velocity", "Water Level", funits=funits,
+                                         ylabel1="Velocity [ms$^{-1}$]",
+                                         ylabel2="Water level [m]",
+                                         log=scale, fontsize = 20, plottitle=False, grid=grid, \
+                                         ymax=None, graph=True,
+                                         ymax_lim2=None, drawslope=drawslope)
 # end
 
 

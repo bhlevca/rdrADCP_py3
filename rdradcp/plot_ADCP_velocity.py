@@ -333,13 +333,12 @@ def plot_ADCP_velocity(adcp, data_args, graph_title, subplot = False, bins = Non
         # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
         data = data_args[0]
         label = data_args[1]
-
         if adcp.goodbins == 0:
             vel_bins = numpy.size(data[:, 0])
         else:
             vel_bins = numpy.size(data[:adcp.goodbins, 0])
             #vel_bins = numpy.size(data[:adcp.config.n_cells-1, 0])
-        if (len(bins) > 9) and (subplot == 1):
+        if (vel_bins > 9) and (subplot == 1):
             print('Too many graphs for subplot, changing to one graph per timeseries\n')
             subplot = 0
         # end
@@ -417,7 +416,6 @@ def plot_ADCP_velocity(adcp, data_args, graph_title, subplot = False, bins = Non
 
 def  plot_ADCP_velocity_img(adcp, data_args, graph_title, echo = True, interp = False, doy = True
                             , sensor_height=0, water_depth=0):
-
         L = numpy.size(adcp.number) - 1
         #
         # PCOLOR
@@ -480,7 +478,6 @@ def  plot_ADCP_velocity_img(adcp, data_args, graph_title, echo = True, interp = 
 
         if interp == False:
             y = numpy.linspace(lim1, lim2, length)
-
             # X, Y = meshgrid(adcp.mtime[0][0:L - 1], adcp.config.ranges)
             X, Y = meshgrid(x, y)
 
@@ -739,7 +736,6 @@ def display_subplots(date, dateImg, dataarr, dnames = None, yday = None, tick = 
         if tick != None:
             ax[i].set_yticks(tick[i][1])
             ax[i].set_yticklabels(tick[i][0])
-       
        
         ax[i].xaxis.grid(which='minor', alpha=0.3)                                                
         ax[i].xaxis.grid(which='major', alpha=0.6)    

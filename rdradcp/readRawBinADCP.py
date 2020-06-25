@@ -61,8 +61,13 @@ def  readRawBinADCP(name, *varargin):
                          This is useful for noisy data. Window sizes are [.3 .3 .3] m/s
                          for [ horiz_vel vert_vel error_vel ] values. If you want to
                          change these values, set 'despike' to the 3-element vector.
+          'type'       : [0 | 1 ]
+                         You can set up VMDAS with OS instruments to do both NB and BB
+                         pings. Use this to choose between the different ping types
+                         (i.e. read once with '0' for the NB data, again with '1' for BB
+                         data).
 
-         R. Pawlowicz (rich@eos.ubc.ca) - 17/09/99
+         R. Pawlowicz (rich@eos.ubc.ca) - 17/09/99 https://www.eoas.ubc.ca/~rich/#RDADCP
 
          R. Pawlowicz - 17/Oct/99
                   5/july/00 - handled byte offsets (and mysterious 'extra" bytes) slightly better, Y2K
@@ -675,8 +680,8 @@ def rd_buffer(fd, num_av, debug = False):
                     ens = -1
                     return
                 # end;
-                id1[2] = id1[1]
-                id1[1] = nextbyte;
+                id1[1] = id1[0]
+                id1[0] = nextbyte;
                 # fprintf([dec2hex(id1(1)) '--' dec2hex(id1(2)) '\n']);
             # end;
         except:
@@ -685,7 +690,7 @@ def rd_buffer(fd, num_av, debug = False):
             return [ens, hdr, cfg, pos]
 
         if search_cnt == num_search:
-            print('Searched %d entries...Not a workhorse/broadband file or bad data encountered: -> %x' % (search_cnt, id1))
+            print('Searched %d entries...Not a workhorse/broadband file or bad data encountered: -> %x' % (search_cnt, id1[1]))
         elif search_cnt > 0:
             print('Searched %d bytes to find next valid ensemble start' % search_cnt)
         # end
